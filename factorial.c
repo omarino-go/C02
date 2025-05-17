@@ -4,4 +4,5 @@ main(){
   scanf("%d",&a);
   for (i=a;i<=1;i--)
       v*=i;
+  printf("Le factoriel de %d est : %d",a,v);
 ]
