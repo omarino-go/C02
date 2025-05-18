@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-  int a,b;
+  int a,b,c;
   //recuperation du variable
   scanf("%d %d",&a,&b);
   //echange sans variable temporaire
-  a=a+b;
-  b=a-b;
-  a=a-b;
+  c=a;
+  b=a;
+  a=c;
   //affichage du resultat
   printf("Après échange: a = %d, b = %d",a,b);
 }
