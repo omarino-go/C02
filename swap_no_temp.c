@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<locale.h>
 int main(){
-  setlocale(LC_ALL, "");
+  Setlocale(LC_ALL, "");
   int a,b;
   //recuperation du variable
   scanf("%d %d",&a,&b);
