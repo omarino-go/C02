@@ -8,6 +8,5 @@ int main(){
   b=a^b;
   a=a^b;
   //affichage du resultat
-  printf("Apres echange: a = %d, b = %d",a,b);
-  return 0;
+  printf("Après échange: a = %d, b = %d",a,b);
 }
