@@ -11,4 +11,5 @@ int main(){
   a=a-b;
   //affichage du resultat
   printf("Après échange: a = %d, b = %d",a,b);
+  return 0;
 }
