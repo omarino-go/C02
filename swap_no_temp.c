@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+  setlocale(LC_ALL,"")
   int a,b;
   //recuperation du variable
   scanf("%d %d",&a,&b);
