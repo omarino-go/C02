@@ -10,6 +10,6 @@ int main(){
   b=a-b;
   a=a-b;
   //affichage du resultat
-  printf("Après échange: a = %d, b = %d\n", a,b);
+  printf("\nAprès échange: a = %d, b = %d", a,b);
   return 0;
 }
