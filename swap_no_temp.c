@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<locale.h>
-main(){
+int main(){
   Setlocale(LC_ALL, "");
   int a,b;
   //recuperation du variable
