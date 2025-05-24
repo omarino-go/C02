@@ -2,7 +2,8 @@
 int main(){
   int a, b;
   //recuperation du variable
-  scanf("%d %d", &a, &b);
+  scanf("%d", &a);
+  scanf("%d", &b);
   //echange sans variable temporaire
   a=a+b;
   b=a-b;
